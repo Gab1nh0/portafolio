@@ -1,0 +1,64 @@
+.timeline_container{
+    display: flex;
+    position: relative;
+    left: 155px;
+    top: 10px;
+}
+
+.general_container{
+    display: flex;
+}
+
+.circulo1{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #7D9D9C;
+    border: #576F72 6px solid;
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+}
+
+.circulo2{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #7D9D9C;
+    border: #576F72 6px solid;
+    position: absolute;
+    z-index: 2;
+    top: 240px;
+}
+
+.rectagulo{
+    width: 5px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+.texto{
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.texto_top{
+    display: flex;
+    align-items: last baseline;
+    gap: 5px;
+}
+
+.fecha{
+    font-weight: 300;
+    color: #7D9D9C;
+}
+
+.cargo{
+    font-weight: 300;
+    color: black;
+}

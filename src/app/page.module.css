@@ -1,0 +1,166 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;  
+  min-height: 100vh;
+}
+
+.h1{
+  font-size: 60px;
+  background: transparent;
+}
+
+.titulo{
+  font-size: 24px;
+  font-weight: 500;
+  background: transparent;
+}
+
+.titulospan{
+  color: #576F72;
+  background: transparent;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 850px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+}
+
+.btncv{
+  display: flex;
+  background-color: #576F72;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.texto{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.iconos{
+  display: flex;
+  gap: 10px;
+  background: transparent;
+}
+
+.blur_circulo1{
+  width: 300px;
+  height: 300px;
+  border-radius: 400px;
+  background-color: #576F72;
+  position: relative;
+  z-index: 1;
+  left: 350px;
+  filter: blur(20px);
+  opacity: 0.5;
+  animation: circleAnimation 10s infinite linear;
+}
+
+@keyframes circleAnimation {
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg); /* Moves the div to the right */
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg); /* Moves the div in a circular path */
+  }
+}
+
+.blur_circulo2{
+  width: 400px;
+  height: 400px;
+  border-radius: 400px;
+  background-color: #576F72;
+  position: relative;
+  z-index: 1;
+  left: -350px;
+  top: -200px;
+  filter: blur(20px);
+  opacity: 0.5;
+  animation: diagonalAnimation 10s infinite linear; /* Aplica la animación */
+}
+
+@keyframes diagonalAnimation {
+  0% {
+    transform: translate(0, 0); /* Inicia la posición en la esquina inferior izquierda */
+  }
+  50% {
+    transform: translate(200px, -200px); /* Mueve el círculo a la esquina superior derecha */
+  }
+  100% {
+    transform: translate(0, 0); /* Regresa a la posición inicial */
+  }
+}
+
+
+/*Page Proyectos*/
+
+.proyecto_content{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  height: 100px;
+  text-align: left;
+  align-items: center;
+  line-height: 1.5;
+  
+}
+
+.proyectocontent p{
+  text-align: left;  
+  
+}
+
+.proyecto_nombre h3{
+  font-size: 26px;
+}
+
+.proyecto_nombre_tabla table{
+  width: 75%;
+}
+
+.proyecto_botones{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 25px;
+}
+
+.proyecto_botones svg{
+  background: none;
+}
+
+.proyecto_botones a{
+  display: flex;
+  background-color: #576F72;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  gap: 10px;
+}
+
+
+
+
+/*fin del vaina*/

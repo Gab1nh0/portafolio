@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #F0EBE3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
+svg {
+  background: transparent;
+}
+
+p{
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
