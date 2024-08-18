@@ -11,9 +11,9 @@ function Header() {
 
         <div className={styles.iconos}>
           
-          <Link href="/experiencia">Experiencia</Link>
           <Link href="/habilidades">Habilidades</Link>
           <Link href="/proyectos">Proyectos</Link>
+          <Link href="/experiencia">Artículos</Link>
         </div>
       
     </header>
