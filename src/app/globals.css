@@ -5,6 +5,7 @@
   margin: 0;
   background-color: #F0EBE3;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 a {
