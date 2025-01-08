@@ -27,7 +27,7 @@ export default function Home() {
                 </p>
             </div>
             <br /><br /><br /><br />
-            <div><a href="https://firebasestorage.googleapis.com/v0/b/footballleague-479b8.appspot.com/o/cv_english.pdf?alt=media&token=3d86da56-b155-4ddd-8bc2-743d5d06b17a" download="GabrielMartinezCV" className={styles.btncv}>
+            <div><a href="https://firebasestorage.googleapis.com/v0/b/footballleague-479b8.appspot.com/o/Gabriel_Martinez_cv.pdf?alt=media&token=c6e31d7d-406e-46a1-aad9-24ec37e8f723" download="GabrielMartinezCV" className={styles.btncv}>
             Descargar CV </a></div>
         </section>
         <br /><br />
